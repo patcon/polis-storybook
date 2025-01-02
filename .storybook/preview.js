@@ -11,12 +11,14 @@ import * as d3array from 'd3-array';
 import * as d3force from 'd3-force';
 import * as d3geo from 'd3-geo';
 import * as d3scale from 'd3-scale';
+import * as d3shape from 'd3-shape';
 import * as d3voronoi from 'd3-voronoi';
 global.d3 = {
   ...d3array,
   ...d3force,
   ...d3geo,
   ...d3scale,
+  ...d3shape,
   ...d3voronoi,
 };
 
